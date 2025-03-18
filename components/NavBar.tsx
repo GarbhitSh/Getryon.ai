@@ -58,7 +58,7 @@ const NavBar = (props: Props) => {
           <div className='flex flex-row w-full items-center justify-between'>
             <div className='relative gap-2 h-10 flex flex-row items-center justify-center'>
               <div onClick={handleScrollToTop} className='text-xl relative flex flex-row text-center duration-1000 cursor-pointer animate-title whitespace-normal items-center'>
-                <p>InstaTryOn</p>
+                <p>GeTryOn</p>
                 <MousePointerClick className='w-6 h-6 ml-1 whitespace-nowrap'/>
               </div>
             </div>
