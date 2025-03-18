@@ -97,40 +97,6 @@ const NavBar = (props: Props) => {
               <Accordion type="single" collapsible className='w-full mt-6'>
                 <AccordionItem value="solutions">
                   <AccordionTrigger>Solutions</AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="grid gap-3 p-4">
-                      {[
-                        { title: "Solution 1", href: "#", description: "Description of solution 1." },
-                        { title: "Solution 2", href: "#", description: "Description of solution 2." },
-                        { title: "Solution 3", href: "#", description: "Description of solution 3." },
-                      ].map((solution) => (
-                        <li key={solution.title} className='p-2'>
-                          <a href={solution.href} className="text-black/50 dark:text-white/50 hover:text-black dark:hover:text-white transition">
-                            <div className="text-sm font-medium">{solution.title}</div>
-                            <p className="text-sm">{solution.description}</p>
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="resources">
-                  <AccordionTrigger>Resources</AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="grid gap-3 p-4">
-                      {[
-                        { title: "Resource 1", href: "#", description: "Description of resource 1." },
-                        { title: "Resource 2", href: "#", description: "Description of resource 2." },
-                      ].map((resource) => (
-                        <li key={resource.title} className='p-2'>
-                          <a href={resource.href} className="text-black/50 dark:text-white/50 hover:text-black dark:hover:text-white transition">
-                            <div className="text-sm font-medium">{resource.title}</div>
-                            <p className="text-sm">{resource.description}</p>
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="about">
                   <AccordionTrigger>About us</AccordionTrigger>
