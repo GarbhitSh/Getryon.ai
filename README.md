@@ -57,9 +57,8 @@ The backend uses an ensemble of the following deep learning models and technique
 
 ## 🧱 Tech Stack
 
-- **Framework**: React / Next.js / Vite (depending on setup)
+- **Framework**: React / Next.js / Vite
 - **Styling**: TailwindCSS / SCSS / Styled Components
-- **State Management**: Redux / Zustand (if applicable)
 - **Build Tools**: Webpack / Vite
 - **Other Tools**: Axios, Formik, Framer Motion, etc.
 
